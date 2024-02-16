@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Task 4</title>
+
+    <script>
+        function display() {
+
+            var input =  document.getElementById("month").value;
+            var pro = 13;
+
+            switch (input) {
+                case "jan":
+                    pro = 0;
+                    break;
+                case "feb":
+                    pro = 1;
+                    break;
+                case "mar":
+                    pro = 2;
+                    break;
+                case "apr":
+                    pro = 3;
+                    break;
+                case "may":
+                    pro = 4;
+                    break;
+                case "jun":
+                    pro = 5;
+                    break;
+                case "jul":
+                    pro = 6;
+                    break;
+                case "aug":
+                    pro = 7;
+                    break;
+                case "sep":
+                    pro = 8;
+                    break;
+                case "oct":
+                    pro = 9;
+                    break;
+                case "nov":
+                    pro = 10;
+                    break;
+                case "dec":
+                    pro = 11;
+                    break;
+                default:
+                    console.log("Invalid input");
+            }
+
+            if (pro != 13) {
+                var nextMonth = new Date(2024, pro + 1, 1);
+                var lastDayOfMonth = new Date(nextMonth - 1);
+                var message = document.getElementById("output");
+                message.innerHTML = "";
+
+                var answer =  document.createElement("p");
+                answer.textContent = "Number of days in the month: " + lastDayOfMonth.getDate();
+                message.appendChild(answer);
+            } else {
+                alert("Invalid month");
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <form class="container">
+        <div class="mb-3">
+            <label for="month" class="form-label">Month:</label>
+            <input type="text" class="form-control" id="month">
+        </div>
+        <button type="button" onclick="display()" class="btn btn-primary">Click</button>
+    </form>
+
+    <div id="output" style="text-align: center;"></div>
+</body>
+</html>

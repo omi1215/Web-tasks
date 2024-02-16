@@ -8,7 +8,7 @@ Welcome to the Web Tasks Repository! This repository contains 5 tasks focusing o
 
 ## Task 2:
 - **Submission:**
-<img width="583" alt="image" src="https://github.com/omi1215/Web-tasks/assets/143265065/c0bcbb22-0f7c-4722-9b38-9966de404b86">
+<img width="583" alt="image" src="https://github.com/omi1215/Web-tasks/assets/143265065/c0bcbb22-0f7c-4722-9b38-9966de404b86"> <br>
 <img width="335" alt="image" src="https://github.com/omi1215/Web-tasks/assets/143265065/2a52974c-3893-4ed5-a668-5948e1cd590a">
 
 ## Task 3:
@@ -21,7 +21,9 @@ Welcome to the Web Tasks Repository! This repository contains 5 tasks focusing o
 
 ## Task 5:
 - **Submission:**
-<img width="338" alt="image" src="https://github.com/omi1215/Web-tasks/assets/143265065/75e33efc-8672-454a-8396-ad26573876f1">
+<img width="338" alt="image" src="https://github.com/omi1215/Web-tasks/assets/143265065/75e33efc-8672-454a-8396-ad26573876f1"><br>
+<img width="960" alt="image" src="https://github.com/omi1215/Web-tasks/assets/143265065/8e7da2bb-d42a-477d-bf92-2e3b07ebfdbf">
+
 
 
 

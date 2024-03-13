@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      ;
+    ></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Document</title>
+    <style>
+      .animation {
+        position: absolute;
+        background-color: #ffcc00;
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $(".animation").animate(
+          {
+            left: "100%", 
+          },
+          3000
+        ); 
+      });
+    </script>
+  </head>
+  <body>
+    <div class="animation"></div>
+  </body>
+</html>
